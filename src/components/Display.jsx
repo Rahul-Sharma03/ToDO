@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Inputs from './Inputs'
 const Display = (props) => {
   function status(data){

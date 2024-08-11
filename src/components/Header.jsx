@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import { IoIosSettings } from "react-icons/io";
+import React from 'react'
+
 
 const  date=new Date().toDateString()
 
 
 const Header = (props) => {
-  const[check,setcheck]=useState()
+  
   return (
     <div id='header'>
         <div className='date-cont'>
@@ -15,9 +15,7 @@ const Header = (props) => {
         <div className='heading-cont'>
           <h1>TO DO List</h1>
         </div>
-        {/* <div className='icon-cont'>
-          <IoIosSettings />
-        </div> */}
+      
 
     </div>
   )

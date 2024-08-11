@@ -20,7 +20,7 @@ const Inputs = (props) => {
   }
   function remove(i){
     const updatedlist=listdata.filter((elem,id)=>{
-      return i!=id;
+      return i!==id;
     })
     setlistdata(updatedlist)
     // props.status(listdatalength+1)
