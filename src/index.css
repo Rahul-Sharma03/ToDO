@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background:linear-gradient(to right,#03062b,#060938,#0f1245);
+  /* background-color: lightblue; */
+  /* color:black;  */
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  overflow-x: hidden;
+
+}
+#header{
+  height: 20vh;
+  width: 100vw;
+  color:white;
+  /* background-color: crimson; */
+  box-shadow: 0px 0.1px 14px black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* margin-top: 10px; */
+  /* position: relative; */
+
+}
+.date-cont{
+    height: 100%;
+    width: 30%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.7rem;
+    gap:10px;
+}
+.date-cont p{
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.heading-cont{
+    height: 100%;
+    width: 30%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    text-shadow: 0px 2px 5px black;
+}
+.icon-cont{
+    height: 100%;
+    width: 30%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* position: absolute; */
+    /* right:0; */
+    padding: 40px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+/* --------------------------------display---------------------------------------- */
+.display-main{
+  min-height: 80vh;
+  width: 100%;
+  /* background-color: aqua; */
+  position: relative;
+}
+.input-div{
+  height: 8vh;
+  width: 30vw;
+  /* background-color: gray; */
+  position: absolute;
+  top:10%;
+  left:35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.input-div ::placeholder{
+  color:black;
+}
+.input-div input{
+  padding:10px;
+  width: 70%;
+  border-radius: 8px;
+  /* text-transform: capitalize; */
+  color:black;
+  background-color: skyblue;
+}
+.input-div button{
+  padding:10px;
+  /* background-color: green; */
+  border-radius: 9px;
+  color:black;
+  background-color: skyblue;
+  /* margin-right: 30px; */
+  margin-left: 10px;
+}
+/* .input-div .clear{
+  background-color: skyblue;
+  padding:10px;
+  border-radius: 9px;
+  color:black;
+
+
+
+} */
+.list-main{
+  min-height: 50vh;
+  width: 50%;
+  background-color: gray;
+  position: absolute;
+  top:22%;
+  left:22%;
+  border:2px solid black;
+  border-radius: 9px;
+  /* position: relative; */
+
+
+}
+.task{
+  display: flex;
+  flex-direction: row;
+  /* background-color: #060938; */
+  margin-top: 10px;
+  margin-left: 30px; 
+  margin-top: 10px;
+  width: 90%;
+  color:black;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid black;
+  border-radius: 9px;
+
+
+}
+.task span{
+  font-size: 2rem;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.list-main li{
+  height:8vh;
+  /* border-bottom: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  border: none;
+}
+/* .clear{
+  height: 5vh;
+  background-color: skyblue;;
+  position: absolute;
+  bottom:5%;
+  left:45%;
+  border:2px solid black;
+  padding: 5px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 9px;
+} */
